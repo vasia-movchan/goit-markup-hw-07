@@ -1,0 +1,25 @@
+.icon-close-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--icon-close-modal-first-color);
+  transition: color 250ms var(--cubic);
+}
+
+.icon-close-modal:hover,
+.icon-close-modal:hover {
+  color: var(--icon-close-modal-second-color);
+}
+
+.close-modal-icon {
+  fill: currentColor;
+}
