@@ -319,7 +319,7 @@ ul {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
@@ -328,21 +328,21 @@ ul {
   color: var(--title-text-color);
 }
 
-.work-list {
+.work__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.work-list-item {
+.work__item {
   position: relative;
 }
 
-.work-list-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work-item-title {
+.work__item-title {
   position: absolute;
   width: 100%;
   bottom: 0;
