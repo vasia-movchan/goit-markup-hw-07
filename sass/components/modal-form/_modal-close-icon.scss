@@ -1,4 +1,4 @@
-.icon-close-modal {
+.modal__close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,13 +13,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: var(--icon-close-modal-first-color);
   transition: color 250ms var(--cubic);
+  &:hover,
+  &:focus {
+    color: var(--icon-close-modal-second-color);
+  }
 }
 
-.icon-close-modal:hover,
-.icon-close-modal:hover {
-  color: var(--icon-close-modal-second-color);
-}
-
-.close-modal-icon {
+.modal__close-icon {
   fill: currentColor;
 }

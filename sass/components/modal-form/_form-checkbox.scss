@@ -9,8 +9,11 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.checkbox {
   &:checked {
-    + .checkbox-icon {
+    + .confirm__checkbox {
       background-color: var(--icon-close-modal-second-color);
       border-color: var(--icon-close-modal-second-color);
       background-image: url(../images/icons/checkbox2.svg);
@@ -20,7 +23,7 @@
   }
 }
 
-.checkbox-icon {
+.confirm__checkbox {
   width: 16px;
   height: 15px;
   border: 2px solid var(--title-text-color);

@@ -1,4 +1,4 @@
-.form-label {
+.form-field {
   display: block;
   padding-bottom: 10px;
   font-size: 12px;
@@ -6,12 +6,12 @@
   letter-spacing: 0.01em;
 }
 
-.input-wrap {
+.form-field__wrap {
   position: relative;
   display: block;
 }
 
-.input {
+.form-field__input {
   display: block;
   height: 40px;
   margin-top: 4px;
@@ -30,7 +30,7 @@
   }
 }
 
-.input-icon {
+.form-field__icon {
   position: absolute;
   top: 50%;
   left: 15px;
