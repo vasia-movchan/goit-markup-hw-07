@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.subscription-mail {
+.subscription-form__input {
   width: 358px;
   margin-right: 12px;
   padding-left: 16px;
@@ -24,7 +24,7 @@
   }
 }
 
-.subscription-btn {
+.subscription-form__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,12 +44,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--btn-text-first-color);
-
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscription-btn-icon {
+.subscription-btn__icon {
   margin-left: 10px;
 }

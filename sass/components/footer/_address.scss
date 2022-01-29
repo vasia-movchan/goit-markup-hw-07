@@ -2,11 +2,11 @@
   padding-top: 20px;
 }
 
-.address-list-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 6px;
 }
 
-.footer-link {
+.address__link {
   font-style: normal;
   line-height: calc(24 / 14);
   color: var(--btn-text-first-color);
