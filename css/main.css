@@ -894,7 +894,12 @@ ul {
   display: inline;
 }
 
-.button-list {
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -904,11 +909,11 @@ ul {
   margin-bottom: 50px;
 }
 
-.button-list-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter-btn {
+.filter__btn {
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -930,7 +935,7 @@ ul {
   transition: background-color 250ms var(--cubic), color 250ms var(--cubic), box-shadow 250ms var(--cubic), -webkit-box-shadow 250ms var(--cubic);
 }
 
-.filter-btn:hover, .filter-btn:focus {
+.filter__btn:hover, .filter__btn:focus {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--btn-color);
@@ -940,11 +945,6 @@ ul {
 .btn-current {
   background-color: var(--btn-color);
   color: var(--btn-text-first-color);
-}
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .portfolio-list {
