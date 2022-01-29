@@ -175,12 +175,12 @@ ul {
   margin-left: auto;
 }
 
-.header-contact-item:last-child {
+.header-contact__item:last-child {
   margin-left: 50px;
 }
 
-.nav-link-mail,
-.nav-link-tel {
+.header-contact__link,
+.header-contact__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,13 +203,13 @@ ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link-mail:hover, .nav-link-mail:focus,
-.nav-link-tel:hover,
-.nav-link-tel:focus {
+.header-contact__link:hover, .header-contact__link:focus,
+.header-contact__link:hover,
+.header-contact__link:focus {
   color: var(--text-hover-color);
 }
 
-.header-contact-icon {
+.header-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }

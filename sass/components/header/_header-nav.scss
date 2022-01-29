@@ -1,8 +1,8 @@
-.nav-list {
+.nav {
   display: flex;
 }
 
-.nav-link {
+.nav__link {
   display: block;
   position: relative;
   padding-top: 32px;
@@ -20,7 +20,7 @@
   }
 }
 
-.nav-list-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 

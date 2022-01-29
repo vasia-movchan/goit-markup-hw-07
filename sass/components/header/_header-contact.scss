@@ -4,12 +4,12 @@
   margin-left: auto;
 }
 
-.header-contact-item:last-child {
+.header-contact__item:last-child {
   margin-left: 50px;
 }
 
-.nav-link-mail,
-.nav-link-tel {
+.header-contact__link,
+.header-contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -29,7 +29,7 @@
   }
 }
 
-.header-contact-icon {
+.header-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
