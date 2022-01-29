@@ -947,7 +947,7 @@ ul {
   color: var(--btn-text-first-color);
 }
 
-.portfolio-list {
+.card-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -957,14 +957,14 @@ ul {
   margin-left: -30px;
 }
 
-.portfolio-list > .portfolio-list-item {
+.card-set__item {
   -ms-flex-preferred-size: calc(100% / var(--number-of-cards) - 30px);
       flex-basis: calc(100% / var(--number-of-cards) - 30px);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.portfolio-item {
+.card {
   display: block;
   position: relative;
   -webkit-transition: -webkit-box-shadow 250ms var(--cubic);
@@ -973,7 +973,7 @@ ul {
   transition: box-shadow 250ms var(--cubic), -webkit-box-shadow 250ms var(--cubic);
 }
 
-.portfolio-item:hover {
+.card:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -987,7 +987,7 @@ ul {
   overflow: hidden;
 }
 
-.overlay {
+.card__overlay {
   padding: 63px 24px;
   font-size: 18px;
   line-height: calc(28 / 18);
@@ -1001,12 +1001,12 @@ ul {
   transition: transform 250ms var(--cubic), -webkit-transform 250ms var(--cubic);
 }
 
-.portfolio-item:hover .overlay {
+.card:hover .card__overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
 
-.card-title {
+.card__info {
   padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
@@ -1015,7 +1015,7 @@ ul {
   border-top-color: transparent;
 }
 
-.portfolio-item-title {
+.card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -1023,7 +1023,7 @@ ul {
   color: var(--title-text-color);
 }
 
-.portfolio-item-text {
+.card__text {
   margin-top: 4px;
   font-size: 16px;
   line-height: calc(30 / 16);
