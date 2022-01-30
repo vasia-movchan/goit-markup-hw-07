@@ -671,7 +671,7 @@ ul {
   border: 1px solid var(--icon-close-modal-second-color);
 }
 
-.form-field__input:focus + .input-icon {
+.form-field__input:focus + .form-field__icon {
   fill: var(--icon-close-modal-second-color);
 }
 
@@ -750,8 +750,9 @@ ul {
   line-height: calc(24 / 14);
 }
 
-.confirm-link {
+.confirm__link {
   display: inline;
+  color: var(--text-hover-color);
 }
 
 .portfolio {
